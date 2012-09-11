@@ -186,6 +186,7 @@
 			<div id="slideshow">				
 				<div class="flexslider twelveCol alpha omega">
 					<ul class="slides">
+					<?php if( is_front_page() ) : ?>
 						<li>
 								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
 								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
@@ -195,7 +196,30 @@
 							<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
 							<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
 							<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
-						</li>					
+						</li>
+				<?php elseif (is_page('filming-and-photgraphy') ) : ?>						
+						<li>
+								<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-1.jpg" />
+								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+								<div class="captionShow"><div class="slideCaption" style="display:none">Filming at Janss Steps</div></div>
+				    </li>
+						<li>
+								<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-2.jpg" />
+								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+								<div class="captionShow"><div class="slideCaption" style="display:none">Royce Hall Portico</div></div>
+				    </li>									
+					<?php else : ?>
+						<li>
+								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
+								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+								<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
+				    </li>					
+						<li>
+							<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
+							<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+							<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
+						</li>						
+					<?php endif; ?>				
 				  </ul>
 				</div> <!-- end .flexslider -->
 				

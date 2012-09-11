@@ -46,12 +46,12 @@
 					<div class="clearer"></div>
 					<div class="oneCol">&nbsp;</div>	
 					<div class="threeCol nomargin">
-						<ul>
+						<!-- <ul>
 							<li><a href="/filming/#how">How to film at UCLA</a></li>
 							<li><a href="/filming/#client">Client and film list</a></li>
 							<li><a href="/filming/#faq">Filming FAQs</a></li>
 							<li><a href="/filming/#student">Student filming</a></li>
-						</ul>
+						</ul> -->
 					</div> <!-- end .threeCol .nomargin -->
 				</div> <!-- end .fourCol .alpha -->
 				
@@ -64,11 +64,11 @@
 					
 					<div class="oneCol">&nbsp;</div>	
 					<div class="threeCol nomargin">
-						<ul>
+						<!-- <ul>
 							<li><a href="#">Nickelodeon Kids Choice Awards</a></li>
 							<li><a href="#">Wedding Example</a></li>
 							<li><a href="/bruin-day-2012/">BruinDay</a></li>
-						</ul>
+						</ul> -->
 					</div> <!-- end .threeCol .nomargin -->
 				</div> <!-- end .fourCol -->
 				<div class="clearer"></div>
@@ -83,10 +83,10 @@
 
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
-							<ul>
+							<!-- <ul>
 								<li><a href="#">Contact an Event Manager</a></li>
 							</ul>
-							<br />
+							<br /> -->
 						</div> <!-- end .threeCol .nomargin -->
 					</div> <!-- end .fourCol .alpha -->
 				
@@ -117,11 +117,11 @@
 
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
-							<ul>
+							<!-- <ul>
 								<li>Rental Catalog (coming soon)</li>
 								<li><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dHJFVjlxX1dWdzN1OUU3S2lmVkZaYkE6MA">Staff/Faculty Order Form</a></li>
 								<li><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dDhaQ3c5M0ozczNGaVpJRVRLaHRXUGc6MA">Registered Campus Organization Order Form</a></li>
-							</ul>
+							</ul> -->
 						</div> <!-- end .threeCol .nomargin -->
 					</div> <!-- end .fourCol .alpha -->				
 				
