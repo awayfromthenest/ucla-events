@@ -596,7 +596,7 @@ a:hover {
 	/*border-top: 2px solid #bbb;*/
 	/*padding-bottom: 10px;*/
 	position: relative;
-	z-index: 99999;
+	z-index: 1;
 }
 #site-title {
 	margin-right: 270px;
@@ -803,7 +803,7 @@ a:hover {
 .siteSlogan {
   position: relative;
   height: 115px;
-  z-index: 9999999999999999999999999999;
+  z-index: 10;
   background: url(images/img_siteSloganBanner.png) top center no-repeat;
   float: right !important;
   padding: 18px 0 10px 60px;
@@ -862,6 +862,11 @@ a:hover {
   background:url(images/img_icon_photo.png) top center no-repeat;
 }
 
+div.threeCol.nomargin p {
+  margin:-.75em 0 1.25em 0em;
+  white-space:nowrap;
+  font-size:.93em;
+}
 
 #main {
 	clear: both;
@@ -2921,4 +2926,48 @@ p.comment-form-comment {
  
 #ie8 section.feature-image.large img { 
 	width: 100%; 
+}
+
+
+/*  ----------------------------------------------- Responsive Design Stuff ----------------------------------------------- */ 
+
+@media screen and (max-width:800px) { 
+  #primary, #secondary {
+    clear:both;
+    width:100%;
+    margin:0 auto;
+  }
+  #logoHomeLink {
+    background-size:66%;
+  }
+  #access a {
+    font-size:1em;
+  }
+  .oneCol, .twoCol, .threeCol, .fourCol, .fiveCol, .sixCol, .sevenCol, .eightCol, .nineCol, .tenCol, .elevenCol, .twelveCol {float:left; margin:0 1.25%; display:inline-block; /*overflow:hidden;*/}
+
+  .oneCol{width:6.383%;}
+  .twoCol{width:14.893625%;}
+  .threeCol{width:23.40425%;}
+  .fourCol{width:31.914875%;}
+  .fiveCol{width:40.4255%;}
+  .sixCol{width:48.936125%;}
+  .sevenCol{width:57.44675%;}
+  .eightCol{width:65.957375%;}
+  .nineCol{width:74.468125%;}
+  .tenCol{width:82.97875%;}
+  .elevenCol{width:91.489375%;}
+  .twelveCol{width:100%;}
+
+  .alpha {margin-left:1.25% !important;}
+  .omega {margin-right:1.25% !important;}
+  .nomargin {margin:0 !important;}
+  /*.contactBtn {background-size:57.44675%; width:57.44675%; height:57.44675%;}
+    .contactBtn:hover{background-position:0 }*/
+  #secondary.widget-area iframe {
+    width:50%;
+    /*float:right;*/
+  }
+  /*#slideshow img {
+      width:66%;
+    }*/
 } 

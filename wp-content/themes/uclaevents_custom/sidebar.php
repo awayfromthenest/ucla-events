@@ -31,10 +31,19 @@ if ( 'content' != $current_layout ) :
 						<li><a href="http://www.adminpolicies.ucla.edu/app/default.aspx?&id=110" target="_new">Use of University Name</a></li>
 					</ul>
 				<?php // elseif (is_front_page() ) : ?>
+				<?php elseif (is_page('rentals')) : ?>
+					&nbsp;
+				<?php elseif (is_page('weddings-private-parties')) : ?>
+					&nbsp;
+				<?php elseif (is_page('corporate-events')) : ?>
+					&nbsp;
+				<?php elseif (is_page('room-rentals')) : ?>
+					&nbsp;
 				<?php elseif (is_page('equipment-rentals')) : ?>
 					<h3 class="widget-title">Related Links</h3>
 					<ul>
-						<li><a href="#">Submit an Online Event Equipment Rental Request</li></a>
+						<li><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dHJFVjlxX1dWdzN1OUU3S2lmVkZaYkE6MA" target="_blank">Staff/Faculty Order Form</a></li>
+						<li><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dDhaQ3c5M0ozczNGaVpJRVRLaHRXUGc6MA" target="_blank">Registered Campus Organization Order Form</a></li>
 					</ul>
 				<?php elseif (is_page('contact-us')) : ?>
 					<iframe width="300" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;cid=1450951565398480166&amp;q=UCLA+Events+Office&amp;gl=US&amp;hl=en&amp;t=m&amp;ll=34.070187,-118.443818&amp;spn=0.006221,0.006437&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br />

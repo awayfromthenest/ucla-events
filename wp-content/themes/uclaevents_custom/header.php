@@ -56,6 +56,23 @@
 <script src="<?php bloginfo('template_directory'); ?>/js/jquery.anchorScroll.js" type="text/javascript" charset="utf-8"></script>
 
 
+<!-- *********** Fancybox Jquery ***************	 -->
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.css?v=2.1.0" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.0"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.3" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.3"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.3"></script>
+
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.6" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.6"></script>
+
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <!-- jquery for flexslider -->
@@ -73,8 +90,13 @@
 			$('.slideCaption').animate({
 				opacity:'toggle',
 			}, 500, function() {
-			});
+			});		
 		});
+		$("dt.gallery-icon a").addClass("fancybox").attr('rel', 'gallery-<?php the_ID(); ?>' );
+		$(".fancybox").fancybox({
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
 		var destination = $("#scrollTo").offset().top;
     $("html,body").animate({ scrollTop: destination},"easeInQuad");
 	});

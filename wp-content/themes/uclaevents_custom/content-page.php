@@ -41,11 +41,12 @@
 				<div class="fourCol nomargin">
 					<a href="/filming-and-photgraphy/"><div class="oneCol icon film">&nbsp;</div></a>
 					<div class="threeCol nomargin"><br />
-						<h2>Filming and Photography</h2>
+						<h2><a href="/filming-and-photgraphy/">Filming and Photography</a></h2>
 					</div> <!-- end .threeCol .nomargin -->
 					<div class="clearer"></div>
 					<div class="oneCol">&nbsp;</div>	
 					<div class="threeCol nomargin">
+						<p>Feature films, television, photography</p>
 						<!-- <ul>
 							<li><a href="/filming/#how">How to film at UCLA</a></li>
 							<li><a href="/filming/#client">Client and film list</a></li>
@@ -58,12 +59,12 @@
 				<div class="fourCol">
 					<a href="/image-gallery/"><div class="oneCol icon photo">&nbsp;</div></a>
 					<div class="threeCol nomargin"><br />
-						<h2>Image Galleries</h2>
+						<h2><a href="/image-gallery/">Image Gallery</a></h2>
 					</div> <!-- end .threeCol .nomargin -->
 					<div class="clearer"></div>
-					
 					<div class="oneCol">&nbsp;</div>	
 					<div class="threeCol nomargin">
+						<p>Outdoor and indoor venues</p>
 						<!-- <ul>
 							<li><a href="#">Nickelodeon Kids Choice Awards</a></li>
 							<li><a href="#">Wedding Example</a></li>
@@ -77,12 +78,12 @@
 					<div class="fourCol nomargin">
 						<a href="/parties-events/weddings-private-parties/"><div class="oneCol icon wedd">&nbsp;</div></a>
 						<div class="threeCol nomargin"><br />
-							<h2>Weddings and Private Events</h2>
+							<h2><a href="/parties-events/weddings-private-parties/">Weddings and Private Events</a></h2>
 						</div> <!-- end .threeCol .nomargin -->
 						<div class="clearer"></div>
-
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
+							<p>Weddings, bar mitzvahs, birthdays</p>
 							<!-- <ul>
 								<li><a href="#">Contact an Event Manager</a></li>
 							</ul>
@@ -93,12 +94,12 @@
 					<div class="fourCol">
 						<a href="/parties-events/corporate-events/"><div class="oneCol icon corp">&nbsp;</div></a>
 						<div class="threeCol nomargin"><br />
-							<h2>Corporate Events</h2>
+							<h2><a href="/parties-events/corporate-events/">Corporate Events</a></h2>
 						</div> <!-- end .threeCol .nomargin -->
 						<div class="clearer"></div>
-
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
+							<p>Meetings, conferences, fundraisers</p>
 							<!-- <ul>
 								<li><a href="#">Link #1</a></li>
 								<li><a href="#">Link #2</a></li>
@@ -111,12 +112,12 @@
 					<div class="fourCol nomargin">
 						<a href="/rentals/equipment-rentals/"><div class="oneCol icon equip">&nbsp;</div></a>
 						<div class="threeCol nomargin"><br />
-							<h2>Equipment Rentals</h2>
+							<h2><a href="/rentals/equipment-rentals/">Equipment Rentals</a></h2>
 						</div> <!-- end .threeCol .nomargin -->
 						<div class="clearer"></div>
-
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
+							<p>Tables, chairs, tents, linens</p>
 							<!-- <ul>
 								<li>Rental Catalog (coming soon)</li>
 								<li><a href="https://spreadsheets.google.com/viewform?hl=en&formkey=dHJFVjlxX1dWdzN1OUU3S2lmVkZaYkE6MA">Staff/Faculty Order Form</a></li>
@@ -128,12 +129,12 @@
 					<div class="fourCol">
 						<a href="/rentals/room-rentals/"><div class="oneCol icon room">&nbsp;</div></a>
 						<div class="threeCol nomargin"><br />
-							<h2>Room Rentals</h2>
+							<h2><a href="/rentals/room-rentals/">Room Rentals</a></h2>
 						</div> <!-- end .threeCol .nomargin -->
 						<div class="clearer"></div>
-
 						<div class="oneCol">&nbsp;</div>	
 						<div class="threeCol nomargin">
+							<p>Classrooms, seminar space, lecture halls</p>
 							<!-- <ul>
 														<li><a href="#">Link #1</a></li>
 														<li><a href="#">Link #2</a></li>
