@@ -178,10 +178,26 @@ body {
 	margin: 0 300px 0 10px;
 	width: 620px;
 }
+
+/*Image Gallery takes up whole content area*/
+.page-id-5 #content {
+  width:100% !important;
+}
+
 #secondary {
   float: right;
   margin-right: 10px;
   width: 300px;
+}
+
+#filmQuickLinks {
+  position:fixed;
+  top:40%;
+  right:0;
+  padding:20px;
+  z-index:9999;
+  background: rgba(255,255,255,.8);
+  box-shadow:0 0 5px rgba(0,0,0, .6);
 }
 
 /* Singular */
@@ -219,7 +235,7 @@ body {
 }
 .page-template-showcase-php #content,
 .left-sidebar.page-template-showcase-php #content {
-	margin: 0 7.6%;
+	margin: 20px 7.6%;
 	width: auto;
 }
 .page-template-showcase-php section.recent-posts {
@@ -459,6 +475,7 @@ dl {
 }
 dt {
 	font-weight: bold;
+	margin:6px;
 }
 dd {
 	margin-bottom: 1.625em;
@@ -1549,6 +1566,13 @@ blockquote.pull.alignright {
 
 /* =Showcase
 ----------------------------------------------- */
+#primary.showcase, .page-id-5 #primary {
+  width:100% !important;
+}
+
+.page-id-5 #secondary {
+  display:none !important;
+}
 
 h1.showcase-heading {
 	color: #666;

@@ -92,6 +92,7 @@
 			}, 500, function() {
 			});		
 		});
+		// jquery for flexslider
 		$("dt.gallery-icon a").addClass("fancybox").attr('rel', 'gallery-<?php the_ID(); ?>' );
 		$(".fancybox").fancybox({
 				openEffect	: 'none',
@@ -208,40 +209,75 @@
 			<div id="slideshow">				
 				<div class="flexslider twelveCol alpha omega">
 					<ul class="slides">
-					<?php if( is_front_page() ) : ?>
-						<li>
-								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
+						<?php if( is_front_page() ) : ?>
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
+					    </li>					
+							<li>
+								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
 								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
 								<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
-				    </li>					
-						<li>
-							<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
-							<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
-							<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
-						</li>
-				<?php elseif (is_page('filming-and-photgraphy') ) : ?>						
-						<li>
-								<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-1.jpg" />
-								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
-								<div class="captionShow"><div class="slideCaption" style="display:none">Filming at Janss Steps</div></div>
-				    </li>
-						<li>
-								<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-2.jpg" />
-								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
-								<div class="captionShow"><div class="slideCaption" style="display:none">Royce Hall Portico</div></div>
-				    </li>									
-					<?php else : ?>
-						<li>
-								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
+							</li>
+						<?php elseif (is_page('filming-and-photgraphy') ) : ?>						
+								<li>
+										<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-2.jpg" />
+										<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+										<div class="captionShow"><div class="slideCaption" style="display:none">Royce Hall Portico</div></div>
+						    </li>									
+								<li>
+										<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-1.jpg" />
+										<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+										<div class="captionShow"><div class="slideCaption" style="display:none">Filming at Janss Steps</div></div>
+						    </li>
+						<?php elseif (is_page('equipment-rentals') ) : ?>						
+								<li>
+										<img src="<?php bloginfo('template_directory'); ?>/images/slides/equip-rentals-2.jpg" />
+										<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+										<div class="captionShow"><div class="slideCaption" style="display:none">Rent tables, chairs, linens, and more!</div></div>
+						    </li>
+								<li>
+										<img src="<?php bloginfo('template_directory'); ?>/images/slides/rentals-1.jpg" />
+										<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+										<div class="captionShow"><div class="slideCaption" style="display:none">Rent tables, chairs, linens, and more!</div></div>
+						    </li>
+						<?php elseif (is_page('room-rentals') ) : ?>		
+							weddprivevents-1.jpg				
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/roomrentals-2.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Humanities 51 Lecture Hall</div></div>
+					    </li>
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/roomrentals-hains39-1.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Haines 39 Lecture Hall</div></div>
+					    </li>
+						<?php elseif (is_page('weddings-private-parties') ) : ?>						
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/weddprivevents-1.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Weddings &amp; Private Parties</div></div>
+					    </li>
+						<?php elseif (is_page('corporate-events') ) : ?>						
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/corp-events-1.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Corporate Events</div></div>
+					    </li>
+						<?php else : ?>
+							<li>
+									<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide1.jpg" />
+									<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
+									<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
+					    </li>					
+							<li>
+								<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
 								<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
 								<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
-				    </li>					
-						<li>
-							<img src="<?php bloginfo('template_directory'); ?>/images/slides/slide2.jpg" />
-							<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
-							<div class="captionShow"><div class="slideCaption" style="display:none">Wilson Plaza</div></div>
-						</li>						
-					<?php endif; ?>				
+							</li>						
+						<?php endif; ?>				
 				  </ul>
 				</div> <!-- end .flexslider -->
 				
