@@ -229,7 +229,7 @@
 								<li>
 										<img src="<?php bloginfo('template_directory'); ?>/images/slides/filming-1.jpg" />
 										<!-- DISPLAY A CAPTION FOR HEADER SLIDE -->
-										<div class="captionShow"><div class="slideCaption" style="display:none">Filming at Janss Steps</div></div>
+										<div class="captionShow"><div class="slideCaption" style="display:none">Filming at Mathias Botanical Garden</div></div>
 						    </li>
 						<?php elseif (is_page('equipment-rentals') ) : ?>						
 								<li>

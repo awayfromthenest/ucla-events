@@ -14,24 +14,47 @@
  * @package WordPress
  */
 
+// Production config
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'uclaevents_development');
+define('DB_NAME', 'uclaevents_production');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'uclaeven');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Ev3n75J0L+');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+
+// Development config
+// // ** MySQL settings - You can get this info from your web host ** //
+// /** The name of the database for WordPress */
+// define('DB_NAME', 'uclaevents_development');
+// 
+// /** MySQL database username */
+// define('DB_USER', 'root');
+// 
+// /** MySQL database password */
+// define('DB_PASSWORD', 'root');
+// 
+// /** MySQL hostname */
+// define('DB_HOST', 'mysql');
+// 
+// /** Database Charset to use in creating database tables. */
+// define('DB_CHARSET', 'utf8');
+// 
+// /** The Database Collate type. Don't change this if in doubt. */
+// define('DB_COLLATE', '');
+
 
 /**#@+
  * Authentication Unique Keys and Salts.
