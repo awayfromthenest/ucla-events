@@ -737,7 +737,7 @@ a:hover {
 	background: -o-linear-gradient(#00F0FF, #049BA3);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00F0FF), to(#049BA3)); /* older webkit syntax */
 	background: -webkit-linear-gradient(#00F0FF, #049BA3);
-	color:#00F0FF;
+	color:#049BA3;
 	text-shadow:0 1px 2px rgba(255,255,255, .7);
 	^color:#00F0FF; /* this targets all IE, including 7. It must go first, or it overrides the following hack */
   _color:#00F0FF; /* this targets >= IE6 */
