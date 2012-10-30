@@ -48,7 +48,10 @@ if ( 'content' != $current_layout ) :
 				<?php elseif (is_page('corporate-events')) : ?>
 					&nbsp;
 				<?php elseif (is_page('room-rentals')) : ?>
-					&nbsp;
+					<h3 class="widget-title">Related Links</h3>
+					<ul>
+						<li><a href="http://www.oid.ucla.edu/units/avs/buildings" target="_blank">Audio Visual Services catalog of classrooms and lecture halls (listed by building on lefthand side)</a></li>
+					</ul>
 				<?php elseif (is_page('equipment-rentals')) : ?>
 					<h3 class="widget-title">Related Links</h3>
 					<ul>

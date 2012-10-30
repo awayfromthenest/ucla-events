@@ -81,7 +81,12 @@ body {
   /*overflow:hidden;*/
 }
 
-.oneCol, .twoCol, .threeCol, .fourCol, .fiveCol, .sixCol, .sevenCol, .eightCol, .nineCol, .tenCol, .elevenCol, .twelveCol {float:left; margin:0 10px; display:inline-block; /*overflow:hidden;*/}
+.oneCol, .twoCol, .threeCol, .fourCol, 
+.fiveCol, .sixCol, .sevenCol, .eightCol, 
+.nineCol, .tenCol, .elevenCol, .twelveCol 
+  {
+    float:left; margin:0 10px; display:inline-block; zoom:1; *display:inline;
+  }
 
 .oneCol{width:60px;}
 .twoCol{width:140px;}
@@ -739,9 +744,9 @@ a:hover {
 	background: -webkit-linear-gradient(#00F0FF, #049BA3);
 	color:#049BA3;
 	text-shadow:0 1px 2px rgba(255,255,255, .7);
-	^color:#00F0FF; /* this targets all IE, including 7. It must go first, or it overrides the following hack */
-  _color:#00F0FF; /* this targets >= IE6 */
   }
+
+
 
 #access ul li:hover > ul {
 	display: block;
@@ -972,7 +977,7 @@ div.threeCol.nomargin p {
 .entry-content h2,
 .comment-content h1,
 .comment-content h2 {
-	color: #6666;
+	color: #666;
 	font-weight: bold;
 	/*margin: 0 0 .8125em;*/
 }
@@ -1780,7 +1785,7 @@ section.feature-image.large img {
 	background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera11.10+ */
 	background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	background: linear-gradient(top, (rgba(255,255,255,0) 0%), (rgba(255,255,255,1) 100%)); /* W3C */
 	width: 100%;
 	height: 45px;
 	position: absolute;
@@ -2462,7 +2467,7 @@ p.comment-form-comment {
 }
 #supplementary {
 	/*border-top: 1px solid #ddd;*/
-	padding: 1.625em auto;
+	padding: 1.625em 0;
 	overflow: hidden;
 	height:247px;
 	margin-top:20px;
@@ -2932,21 +2937,30 @@ p.comment-form-comment {
 /* =IE7
 ----------------------------------------------- */
 
-#ie7 article.intro {
-	margin-left: -7.6%;
-	margin-right: -7.6%;
-	padding-left: -7.6%;
-	padding-right: -7.6%;
-	max-width: 1000px;
+
+#ie7, #ie8, #ie6, #ie9 {
+  .siteSlogan {
+    display:none;
+  }
 }
-#ie7 section.featured-post {
-	margin-left: -7.6%;
-	margin-right: -7.6%;
-	max-width: 850px;
+
+#ie7 .siteSlogan {
+  display:none;
 }
-#ie7 section.recent-posts {
-	margin-right: 7.6%;
+
+#ie #filmQuickLinks, #ie7 #filmQuickLinks, #ie8 #filmQuickLinks, #ie6 #filmQuickLinks {
+  background:white;
 }
+
+#ie .slideCaption, #ie7 .slideCaption, #ie8 .slideCaption, #ie6 .slideCaption {
+  background:white;
+}
+
+#ie7 #primary, #ie7 #secondary {
+  zoom:1;
+  *display:inline;
+}
+
 
 /* =IE8 
 ----------------------------------------------- */ 
@@ -2959,7 +2973,7 @@ p.comment-form-comment {
 /*  ----------------------------------------------- Responsive Design Stuff ----------------------------------------------- */ 
 
 @media screen and (max-width:800px) { 
-  #primary, #secondary {
+/*  #primary, #secondary {
     clear:both;
     width:100%;
     margin:0 auto;
@@ -2970,7 +2984,7 @@ p.comment-form-comment {
   #access a {
     font-size:1em;
   }
-  .oneCol, .twoCol, .threeCol, .fourCol, .fiveCol, .sixCol, .sevenCol, .eightCol, .nineCol, .tenCol, .elevenCol, .twelveCol {float:left; margin:0 1.25%; display:inline-block; /*overflow:hidden;*/}
+  .oneCol, .twoCol, .threeCol, .fourCol, .fiveCol, .sixCol, .sevenCol, .eightCol, .nineCol, .tenCol, .elevenCol, .twelveCol {float:left; margin:0 1.25%; display:inline-block;}
 
   .oneCol{width:6.383%;}
   .twoCol{width:14.893625%;}
@@ -2988,13 +3002,8 @@ p.comment-form-comment {
   .alpha {margin-left:1.25% !important;}
   .omega {margin-right:1.25% !important;}
   .nomargin {margin:0 !important;}
-  /*.contactBtn {background-size:57.44675%; width:57.44675%; height:57.44675%;}
-    .contactBtn:hover{background-position:0 }*/
   #secondary.widget-area iframe {
     width:50%;
-    /*float:right;*/
-  }
-  /*#slideshow img {
-      width:66%;
-    }*/
+
+  }*/
 } 
