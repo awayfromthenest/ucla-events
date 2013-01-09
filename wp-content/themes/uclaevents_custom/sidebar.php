@@ -25,7 +25,7 @@ if ( 'content' != $current_layout ) :
 				<?php if (is_page('filming-and-photgraphy') ) : ?>
 					<h3 class="widget-title">Related Links</h3>
 					<ul>
-						<li><a href="http://www.events.ucla.edu/portal/filmguidelines.pdf" target="_new">Film and Photography Guidelines (PDF)</a></li>
+						<li><a href="http://www.uclaevents.com/docs/FilmGuidelinesandApplication_rev1.2013.pdf" target="_new">Film and Photography Guidelines (PDF)</a></li>
 						<li><a href="http://www.events.ucla.edu/portal/filmcode.pdf" target="_new">Professional Code of Responsibility (PDF)</a></li>
 						<li><a href="http://www.adminpolicies.ucla.edu/app/Default.aspx?&id=863" target="_new">Filming &amp; Photography on Campus (Policy 863)</a></li>
 						<li><a href="http://www.adminpolicies.ucla.edu/app/default.aspx?&id=110" target="_new">Use of University Name</a></li>
