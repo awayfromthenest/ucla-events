@@ -31,14 +31,14 @@ if ( 'content' != $current_layout ) :
 						<li><a href="http://www.adminpolicies.ucla.edu/app/default.aspx?&id=110" target="_new">Use of University Name</a></li>
 					</ul>
 					
-					<ul id="filmQuickLinks">
+					<!-- <ul id="filmQuickLinks">
 						<h2>Filming &amp; Photography Quicklinks</h2>
 						<li><a href="#how">How to film at UCLA</a></li>
 						<li><a href="#client">Client and film list</a></li>
 						<li><a href="#student">Student filming</a></li>
 						<li><a href="#faq">Filming FAQs</a></li>
 						<li><a href="#photos">Filming Photos</a></li>
-					</ul>
+					</ul> -->
 					
 				<?php // elseif (is_front_page() ) : ?>
 				<?php elseif (is_page('rentals')) : ?>
